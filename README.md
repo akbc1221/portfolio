@@ -4,4 +4,4 @@
 
 ## Visit Portfolio
 
-![Website](https://portfolio-arnab.netlify.app/)
+<a href="https://portfolio-arnab.netlify.app" target="_blank">Visit</a>
