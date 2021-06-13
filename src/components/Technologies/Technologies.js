@@ -1,15 +1,28 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact } from "react-icons/di";
+import { GiArtificialIntelligence } from "react-icons/gi";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range a technologies in the web development and Data
+      Science. From MERN stack to Tensorflow and Python scientific computing
+      packages.
     </SectionText>
     <List>
       <ListItem>
@@ -19,8 +32,9 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experiece with React.js,
+            <br />
+            Material UI and Bootstrap
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,13 +52,14 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <GiArtificialIntelligence size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Machine Learning</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Experience with tools like
+            <br />
+            Jupyter Notebook and Tensorflow framework
           </ListParagraph>
         </ListContainer>
       </ListItem>
